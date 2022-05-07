@@ -1,0 +1,82 @@
+.rectangle {
+    position: absolute;
+    width: 807px;
+    height: 813px;
+    left: 450px;
+    top: 317px;
+    
+    background: #A2A6C2;
+    mix-blend-mode: color-burn;
+    border-radius: 100px;
+}
+
+.rectangle::before{
+    content: "";
+    display: block;
+    padding-top: 25%    ;
+}
+.rectangle-in1 {
+    position: absolute;
+    width: 361px;
+    height: 309px;
+    left: 480px;
+    top: 478px;
+    
+    background: #8F7CD2;
+    border-radius: 81px;
+}
+/*
+.rectangle-in1::before{
+
+}
+*/
+
+.rectangle-in2 {
+    position: absolute;
+width: 361px;
+height: 309px;
+left: 870px;
+top: 478px;
+
+background: #A493E2;
+border-radius: 81px;
+}
+
+/*
+.rectangle-in2 {
+
+}
+*/
+
+.rectangle-in3 {
+    position: absolute;
+width: 361px;
+height: 309px;
+left: 480px;
+top: 802px;
+
+background: #A493E2;
+border-radius: 81px;
+}
+
+/*
+.rectangle-in3 {
+
+}
+*/
+
+.rectangle-in4 {
+    position: absolute;
+width: 361px;
+height: 309px;
+left: 870px;
+top: 802px;
+
+background: #A493E2;
+border-radius: 81px;
+}
+/*
+.rectangle-in4 {
+
+}
+*/
